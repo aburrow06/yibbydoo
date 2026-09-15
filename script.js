@@ -45,6 +45,6 @@ function renderTasks() {
 // Initialize the app when page loads
 document.addEventListener('DOMContentLoaded', function() {
     renderTasks();
-    
-    // TODO
+
+    const taskForm = document.getElementById('taskForm');
 });
